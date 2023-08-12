@@ -1,0 +1,4 @@
+SnackBar => é um widget no Flutter que é usado para exibir uma mensagem temporária na parte inferior da tela do aplicativo. É comumente usado para exibir mensagens de feedback curtas, como mensagens de erro, alertas ou confirmações. SnackBars são deslizantes e desaparecem automaticamente após algum tempo. Eles podem ter ações associadas, como botões que permitem ao usuário tomar uma ação imediata. SnackBars são úteis porque eles não interrompem a experiência do usuário e são uma maneira fácil de exibir informações importantes na parte inferior da tela.
+
+
+

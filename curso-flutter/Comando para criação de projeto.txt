@@ -1,0 +1,1 @@
+flutter create --project-name great_places_test --platforms android,ios ./great_places_test

@@ -29,8 +29,8 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
         title:  const Text('Meu App'),
         bottom:  TabBar(
           tabs: const <Tab>[
-             Tab(text: 'Página 1'),
-             Tab(text: 'Página 2'),
+             Tab(text: 'Home', icon: Icon(Icons.home),),
+             Tab(text: 'Configuração', icon: Icon(Icons.settings),),
           ],
           controller: _tabController,
         ),
@@ -38,8 +38,8 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
       body:  TabBarView(
         controller: _tabController,
         children: const <Widget>[
-           Center(child:  Text('Página 1')),
-           Center(child:  Text('Página 2')),
+           Center(child:  Text('Home')),
+           Center(child:  Text('Configuração')),
         ],
       ),
     );
